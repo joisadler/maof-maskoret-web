@@ -1,7 +1,7 @@
 {
   "name": "my-express-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Testing express.js application",
   "main": "index.js",
   "scripts": {
     "test": "jest",
