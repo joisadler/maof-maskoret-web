@@ -25,7 +25,6 @@
     "babel-cli": "*",
     "babel-core": "*",
     "babel-eslint": "*",
-    "babel-plugin-transform-runtime": "*",
     "babel-preset-env": "*",
     "babel-preset-flow": "*",
     "babel-preset-stage-0": "*",
