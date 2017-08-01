@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "babel-node": "babel-node",
+    "eslint": "eslint"
   },
   "author": "Yossi Adler",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "*"
   },
   "devDependencies": {
     "babel-cli": "*",
@@ -19,10 +21,11 @@
     "babel-preset-env": "*",
     "babel-preset-flow": "*",
     "babel-preset-stage-0": "*",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint": "*",
+    "eslint-config-airbnb-base": "*",
     "eslint-plugin-flowtype": "*",
     "eslint-plugin-import": "*",
-    "eslint-plugin-jest": "*"
+    "eslint-plugin-jest": "*",
+    "jest": "*"
   }
 }
