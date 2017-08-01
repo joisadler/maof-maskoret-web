@@ -12,10 +12,10 @@
     "type": "git",
     "url": "https://github.com/joisadler/my-express-app.git"
   },
-  "author": "Yossi Adler",
+  "author": "Yossi Adler <joisadler@gmail.com>",
   "license": "ISC",
   "bugs": {
-  "url": "https://github.com/joisadler/my-express-app/issues"
+    "url": "https://github.com/joisadler/my-express-app/issues"
   },
   "homepage": "https://github.com/joisadler/my-express-app#readme",
   "dependencies": {
@@ -26,7 +26,6 @@
     "babel-core": "*",
     "babel-eslint": "*",
     "babel-preset-env": "*",
-    "babel-preset-flow": "*",
     "babel-preset-stage-0": "*",
     "eslint": "*",
     "eslint-config-airbnb-base": "*",
