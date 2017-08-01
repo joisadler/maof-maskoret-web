@@ -18,6 +18,11 @@
     "babel-plugin-transform-runtime": "*",
     "babel-preset-env": "*",
     "babel-preset-flow": "*",
-    "babel-preset-stage-0": "*"
+    "babel-preset-stage-0": "*",
+    "eslint": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jest": "*"
   }
 }
