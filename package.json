@@ -8,8 +8,16 @@
     "babel-node": "babel-node",
     "eslint": "eslint"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joisadler/my-express-app.git"
+  },
   "author": "Yossi Adler",
   "license": "ISC",
+  "bugs": {
+  "url": "https://github.com/joisadler/my-express-app/issues"
+  },
+  "homepage": "https://github.com/joisadler/my-express-app#readme",
   "dependencies": {
     "express": "*"
   },
