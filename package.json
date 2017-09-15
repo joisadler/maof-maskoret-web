@@ -2,7 +2,8 @@
   "name": "my-express-app",
   "version": "1.0.0",
   "description": "Testing express.js application",
-  "main": "index.js",
+  "main": "dist/app.js",
+  "bin": "dist/bin/app",
   "scripts": {
     "test": "jest",
     "babel-node": "babel-node",
@@ -20,7 +21,9 @@
   },
   "homepage": "https://github.com/joisadler/my-express-app#readme",
   "dependencies": {
-    "express": "*"
+    "express": "*",
+    "morgan": "*",
+    "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
     "babel-cli": "*",
@@ -33,6 +36,7 @@
     "eslint-plugin-flowtype": "*",
     "eslint-plugin-import": "*",
     "eslint-plugin-jest": "*",
-    "jest": "*"
+    "jest": "*",
+    "supertest": "*"
   }
 }
