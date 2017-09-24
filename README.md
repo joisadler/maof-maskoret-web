@@ -1,4 +1,4 @@
-### Maof-maskoret-web
+# Maof-maskoret-web
 
 [![Build Status](https://travis-ci.org/joisadler/maof-maskoret-web.svg?branch=master)](https://travis-ci.org/joisadler/maof-maskoret-web)
 
