@@ -38,6 +38,7 @@
     "eslint-plugin-import": "*",
     "eslint-plugin-jest": "*",
     "jest": "*",
+    "jest-supertest-matchers": "0.0.1",
     "supertest": "*"
   }
 }
