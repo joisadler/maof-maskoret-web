@@ -2,7 +2,7 @@
   "name": "maof-maskoret-web",
   "version": "1.0.0",
   "description": "Simple Node.js/Express.js application that calculates gross and net salary for the emploees of some Israeli poultry factory",
-  "main": "dist/app.js",
+  "main": "dist/maskoret.js",
   "bin": "dist/bin/app",
   "scripts": {
     "test": "jest",
