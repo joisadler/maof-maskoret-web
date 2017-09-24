@@ -2,4 +2,6 @@
 
 import app from '../app';
 
-app.listen(4000, () => console.log('Example app listening on port 4000!'));
+const port = process.env.PORT || 8080;
+
+app().listen(port, () => console.log(`Maof-maskoret app listening on port ${port}`));

@@ -2,12 +2,51 @@ doctype html
 html(lang="en")
   head
     meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous")
-    style.
-      body { padding-top:50px; }
-    title= title
+    link(rel='stylesheet' href="css/main.css")
+    title Maof maskoret
   body.container
-    div.jumbotron
-      h1 Hello!
-      p It is some text here
-      p More text
+    .jumbotron.mainpage
+      .btn-group.languages-buttons
+        form(method="get" action="/en")
+          button.btn.btn-primary#en English
+        form(method="get" action="/ru")
+          button.btn.btn-primary#ru Русский
+        form(method="get" action="/he")
+          button.btn.btn-primary#he עברית
+      h1= greeting
+      p= please
+      form.col-md-3(method="get" action="/calculate")
+        p(style="margin-bottom:0")= timeQuestion
+        label= hh
+        br
+        input(type="number" name="hh")
+        br
+        label= mm
+        br
+        input(type="number" name="mm")
+        label= chickenQuestion
+        input(type="number" name="numberOfChickens")
+        label= chabadQuestion
+        input(type="number" name="chabadDays")
+        label= hourlySalaryQuestion
+        input(type="number" name="hourlySalary")
+        label= creditPointsQuestion
+        input(type="text" name="creditPoints")
+        label= holidaysQuestion
+        input(type="text" name="holidaysNumber")
+        p(style="margin-bottom:0")= holidayGiftQuestion
+        input(type="radio" name="gift" value="yes")
+        label &nbsp;#{yes}&nbsp;
+        input(type="radio" name="gift" value="no" checked="true")
+        label &nbsp;#{no}&nbsp;
+        hr
+        label= thanks
+        br
+        input.btn.btn-primary.pull-right(type="submit" value=calculate)
+        script.
+          const currentActiveButton = document.getElementById('#{language}');
+          currentActiveButton.className += " active";
+      footer
+        small &copy; 2017, Made by Yossi Adler

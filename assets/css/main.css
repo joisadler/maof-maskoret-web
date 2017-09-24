@@ -1,0 +1,37 @@
+body {
+  padding-top: 50px;
+  background: #000000;
+  color: #D1D1D1;
+}
+
+input {
+  border-radius:4px;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.jumbotron {
+  padding-bottom: 1rem;
+}
+
+.mainpage {
+  background: url('../images/knife.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+.resultpage {
+  background: url('../images/knives.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 65px;
+}
+
+.languages-buttons {
+  float: right;
+}

@@ -1,29 +1,30 @@
 {
-  "name": "my-express-app",
+  "name": "maof-maskoret-web",
   "version": "1.0.0",
-  "description": "Testing express.js application",
+  "description": "Simple Node.js/Express.js application that calculates gross and net salary for the emploees of some Israeli poultry factory",
   "main": "dist/app.js",
   "bin": "dist/bin/app",
   "scripts": {
     "test": "jest",
     "babel-node": "babel-node",
     "eslint": "eslint",
-    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline"
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "start": "node dist/bin/app"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joisadler/my-express-app.git"
+    "url": "https://github.com/joisadler/maof-maskoret-web.git"
   },
   "author": "Yossi Adler <joisadler@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joisadler/my-express-app/issues"
+    "url": "https://github.com/joisadler/maof-maskoret-web/issues"
   },
-  "homepage": "https://github.com/joisadler/my-express-app#readme",
+  "homepage": "https://github.com/joisadler/maof-masloret-web#readme",
   "dependencies": {
     "express": "*",
     "morgan": "*",
-    "pug": "^2.0.0-rc.4"
+    "pug": "*"
   },
   "devDependencies": {
     "babel-cli": "*",
