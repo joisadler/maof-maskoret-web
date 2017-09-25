@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/joisadler/maof-masloret-web#readme",
   "dependencies": {
+    "babel": "^6.23.0",
     "express": "*",
     "morgan": "*",
     "pug": "*"
