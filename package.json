@@ -5,7 +5,7 @@
   "main": "dist/maskoret.js",
   "bin": "dist/bin/app",
   "scripts": {
-    "test": "jest",
+    "test": "jest --forceExit",
     "babel-node": "babel-node",
     "eslint": "eslint",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
