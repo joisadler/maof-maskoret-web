@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Simple Node.js/Express.js application that calculates gross and net salary for the emploees of some Israeli poultry factory",
   "main": "dist/maskoret.js",
-  "bin": "dist/bin/app.js",
+  "bin": "./dist/bin/app.js",
   "scripts": {
     "test": "jest --forceExit",
     "babel-node": "babel-node",
     "eslint": "eslint",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
-    "start": "node dist/bin/app.js"
+    "start": "node ./dist/bin/app.js"
   },
   "repository": {
     "type": "git",
