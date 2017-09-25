@@ -22,12 +22,12 @@
   },
   "homepage": "https://github.com/joisadler/maof-masloret-web#readme",
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "express": "*",
     "morgan": "*",
     "pug": "*"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
     "babel-core": "*",
     "babel-eslint": "*",
     "babel-preset-env": "*",
