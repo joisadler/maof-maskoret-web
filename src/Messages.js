@@ -51,7 +51,7 @@ export default class Messages {
       totalDeductions: 'Общая сумма вычетов:',
       netSalary: 'Ваша ожидаемая зарплата нетто в этом месяце составит:',
       goodLuck: 'Всего доброго!',
-      newCalculation: 'Новый рассчёт',
+      newCalculation: 'Новый расчет',
     };
 
     this.hebrewMessages = {
