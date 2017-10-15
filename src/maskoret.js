@@ -161,7 +161,7 @@ export default () => {
     const creditPoints = Number(req.query.creditPoints) || 2.25;
     const holidaysNumber = Number(req.query.holidaysNumber) || 0;
     const gift = req.query.gift;
-    const holidayGift = gift === 'yes' ? toGross(250) : 0;
+    const holidayGift = gift === 'yes' ? 300/* toGross(250) */ : 0;
     const minutes = (hh * 60) + mm;
     const hours = (minutes / 60).toFixed(2);
     const salaryForHours = Math.round(hours * hourlySalary);
