@@ -23,21 +23,21 @@
   "homepage": "https://github.com/joisadler/maof-masloret-web#readme",
   "dependencies": {
     "babel-cli": "*",
-    "babel-core": "*",
-    "babel-eslint": "*",
-    "babel-preset-env": "*",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "*",
-    "express": "*",
-    "morgan": "*",
-    "pug": "*"
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
-    "eslint": "*",
-    "eslint-config-airbnb-base": "*",
-    "eslint-plugin-flowtype": "*",
-    "eslint-plugin-import": "*",
-    "eslint-plugin-jest": "*",
-    "jest": "*",
-    "supertest": "*"
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "jest": "^23.4.1",
+    "supertest": "^3.1.0"
   }
 }
